@@ -1,0 +1,23 @@
+{
+  "name": "simple-web-app",
+  "version": "1.0.0",
+  "description": "Simple Web Application with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node authcode.js"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2",
+    "openid-client": "^5.6.5",
+    "querystring": "^0.2.1"
+  }
+}
